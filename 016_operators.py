@@ -1,3 +1,5 @@
+from lib.helpers import odd_or_even
+
 # Video alternative: https://vimeo.com/954334235/902b0b036d#t=606
 
 # So far you've seen very simple computations. I'm going to show you how to
@@ -84,7 +86,9 @@ print(f"2 * 3 = {multiplied} (should be 6)")
 
 # OPERATOR PLAYGROUND STARTS
 
-
+exponent = 7**11
+  
+print(f"{exponent} is an {odd_or_even(exponent)} number")
 
 # OPERATOR PLAYGROUND ENDS
 

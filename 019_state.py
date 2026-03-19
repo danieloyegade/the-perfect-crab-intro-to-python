@@ -3,7 +3,7 @@
 # Here's a mindbender for you:
 
 a = 10
-b = 20
+b = 29
 a = b
 print(f"a is {a}")
 print(f"b is {b}")

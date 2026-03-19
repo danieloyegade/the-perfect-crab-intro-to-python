@@ -20,6 +20,10 @@ from lib.helpers import check_that_these_are_equal
 
 #   python 013_add_two.py
 
+def add_two(number):
+  return number + 2
+  
+
 # This will run the test at the bottom of this file.
 
 # If you have trouble, look back at `add_one` _very_ closely, character by

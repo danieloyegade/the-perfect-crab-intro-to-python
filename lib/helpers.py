@@ -27,3 +27,10 @@ def check_that_these_are_equal(a, b):
     else:
         print(f"{RED}That's not correct. Stopping execution here...{NC}")
         exit()
+
+
+def odd_or_even(num):
+  if(num%2 == 0):
+    return "even"
+  else:
+    return "odd"

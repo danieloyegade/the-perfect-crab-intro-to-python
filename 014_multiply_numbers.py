@@ -9,8 +9,10 @@ def multiply_numbers(num_a, num_b):
 
 # And let's use it:
 
+two_times_three = multiply_numbers(2, 3)
+
 print("multiply_numbers(2, 3) is:")
-print(multiply_numbers(2, 3))
+print(two_times_three)
 
 print("multiply_numbers(3, 5) is:")
 print(multiply_numbers(3, 5))
